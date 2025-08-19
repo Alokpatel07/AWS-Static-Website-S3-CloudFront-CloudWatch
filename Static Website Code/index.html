@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book Recommender</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Find Favorite Book</h1>
+    <p>Explore top-rated books by interest</p>
+  </header>
+
+  <div id="categories">
+    <button class="category-btn" data-category="IT">IT / Computer Science</button>
+    <button class="category-btn" data-category="Engineering">Engineering</button>
+    <button class="category-btn" data-category="Business & Management">Business & Management</button>
+    <button class="category-btn" data-category="Finance & Investment">Finance & Investment</button>
+    <button class="category-btn" data-category="Marketing & Sales">Marketing & Sales</button>
+    <button class="category-btn" data-category="Law">Law</button>
+    <button class="category-btn" data-category="Medicine & Healthcare">Medicine & Healthcare</button>
+    <button class="category-btn" data-category="Architecture">Architecture</button>
+  </div>
+  
+  <div id="bookList"></div>
+  
+
+    <!-- Summary Section -->
+     <main>
+    <div id="bookSummary" class="summary-section hidden">
+      <h3>📘 Book Summary</h3>
+      <p id="summaryText"></p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

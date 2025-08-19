@@ -1,0 +1,150 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and General Layout */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #2d2d2d;
+  }
+  
+  /* Category Buttons */
+  #categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .category-btn {
+    padding: 12px 25px;
+    background-color: #457a4f;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .category-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  /* Book Cards Container */
+  #bookList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  /* Book Cards */
+  .book-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px; /* Adjusted width for horizontal layout */
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+  }
+  
+  .book-card:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px);
+  }
+  
+  .book-card h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #040404;
+  }
+  
+  .book-card p {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .book-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .book-card a:hover {
+    color: #0056b3;
+  }
+  
+  /* Book Summary */
+  .book-summary {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .book-summary h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  /* Responsive Layout */
+  @media screen and (max-width: 768px) {
+    #categories {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .category-btn {
+      width: 80%;
+      text-align: center;
+      margin: 10px 0;
+    }
+  
+    /* Adjust book cards layout for smaller screens */
+    #bookList {
+      justify-content: flex-start;
+    }
+  
+    .book-card {
+      width: 200px; /* Make cards smaller for mobile */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .book-card h2 {
+      font-size: 18px;
+    }
+  
+    .book-card p {
+      font-size: 13px;
+    }
+  
+    .book-card a {
+      font-size: 12px;
+    }
+  
+    h1 {
+      font-size: 30px;
+    }
+  }
+  
