@@ -12,7 +12,7 @@ All implemented on the **AWS Free Tier**.
 - Uploaded `index.html`, `style.css`, and `script.js`.
 
 📷 Screenshot:  
-[![Bucket Created and HTML CSS & JS files uploaded](1_Bucket Created and HTML CSS & JS files uploaded.png)]
+[![Bucket Created and HTML CSS & JS files uploaded](https://github.com/Alokpatel07/AWS-Static-Website-S3-CloudFront-CloudWatch/blob/main/Screenshots/1_Bucket%20Created%20and%20HTML%20CSS%20%26%20JS%20files%20uploaded.png)]
 
 ---
 
@@ -20,7 +20,7 @@ All implemented on the **AWS Free Tier**.
 - Enabled **Static Website Hosting** in bucket properties.
 
 📷 Screenshot:  
-[![Static Website Hosting Enabled](2_Static Website Hosting Enabled.png)]
+[![Static Website Hosting Enabled](https://github.com/Alokpatel07/AWS-Static-Website-S3-CloudFront-CloudWatch/blob/main/Screenshots/2_Static%20Website%20Hosting%20Enabled.png)]
 
 ---
 
@@ -29,7 +29,7 @@ All implemented on the **AWS Free Tier**.
 - This makes the website accessible via browser.
 
 📷 Screenshot:  
-[![Bucket Policy for Public Read](3_Bucket Policy for Public Read.png)]
+[![Bucket Policy for Public Read](https://github.com/Alokpatel07/AWS-Static-Website-S3-CloudFront-CloudWatch/blob/main/Screenshots/3_Bucket%20Policy%20for%20Public%20Read.png)]
 
 ---
 
@@ -38,7 +38,7 @@ All implemented on the **AWS Free Tier**.
 - CloudFront provides a **global CDN endpoint** for faster delivery.
 
 📷 Screenshot:  
-[![CloudFront Distribution Created](4_Cloudfront Distribution Created.png)]
+[![CloudFront Distribution Created](https://github.com/Alokpatel07/AWS-Static-Website-S3-CloudFront-CloudWatch/blob/main/Screenshots/4_Cloudfront%20Distribution%20Created.png)]
 
 ---
 
@@ -46,7 +46,7 @@ All implemented on the **AWS Free Tier**.
 - Configured CloudFront to send access logs to another S3 bucket.
 
 📷 Screenshot:  
-[![Logging Enabled for CloudFront](5_Logging Enabled for CloudFront.png)]
+[![Logging Enabled for CloudFront](https://github.com/Alokpatel07/AWS-Static-Website-S3-CloudFront-CloudWatch/blob/main/Screenshots/5_Logging%20Enabled%20for%20CloudFront.png)]
 
 ---
 
@@ -55,7 +55,7 @@ All implemented on the **AWS Free Tier**.
 - Sends notification if error rate crosses threshold.
 
 📷 Screenshot:  
-[![Created CloudWatch Alarm for errors](6_Created Cloudwatch Alarm for errors.png)]
+[![Created CloudWatch Alarm for errors](https://github.com/Alokpatel07/AWS-Static-Website-S3-CloudFront-CloudWatch/blob/main/Screenshots/6_Created%20Cloudwatch%20Alarm%20for%20errors.png)]
 
 ---
 
@@ -64,7 +64,7 @@ All implemented on the **AWS Free Tier**.
 - Subscribed email to receive alarm notifications.
 
 📷 Screenshot:  
-[![Created SNS topic & subscribed](7_Created a SNS topic & subscribe to SNS topic for notification.png)]
+[![Created SNS topic & subscribed](https://github.com/Alokpatel07/AWS-Static-Website-S3-CloudFront-CloudWatch/blob/main/Screenshots/7_Created%20a%20SNS%20topic%20%26%20subscribe%20to%20SNS%20topic%20for%20notification.png)]
 
 ---
 
